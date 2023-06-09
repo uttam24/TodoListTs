@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #0685e9d4;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center
+}
+
+.container {
+  width: 450px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.todoBox {
+  margin: 15px 0;
+  display: flex;
+}
+
+.todoBox input {
+  width: 100%;
+  height: 35px;
+  padding: 10px
+}
+
+.todoBox button {
+  background-color: #0685e9d4;
+  border: 0;
+  width: 35px;
+  color: #fff;
+  font-size: 25px;
+  margin-left: 8px;
+  border-radius: 2px;
+}
+
+.addtodo {
+  position: relative;
+}
+
+.addtodo ul {
+  list-style-type: none;
+}
+
+.addtodo ul li {
+  padding: 10px 0;
+}
+
+.addtodo ul li button {
+  background-color: #0685e9d4;
+  border: 0;
+  width: 30px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 8px;
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+}
+
+.loadder {
+  width: 1px;
+  height: 30px;
+  background-color: #fff;
+}
